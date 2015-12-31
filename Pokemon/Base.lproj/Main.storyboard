@@ -110,7 +110,7 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="eye-GA-o0N">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search for Pokemon" translatesAutoresizingMaskIntoConstraints="NO" id="xyE-am-tvw">
                                 <rect key="frame" x="0.0" y="57" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -118,25 +118,27 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="x98-1o-rv8" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="0mq-sC-syo"/>
-                            <constraint firstItem="x98-1o-rv8" firstAttribute="top" secondItem="eye-GA-o0N" secondAttribute="bottom" constant="21" id="1m7-bo-RXE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FNG-Jp-II3" secondAttribute="bottom" id="2mN-vo-ZwY"/>
-                            <constraint firstAttribute="trailing" secondItem="eye-GA-o0N" secondAttribute="trailing" id="77y-La-8E6"/>
                             <constraint firstAttribute="trailing" secondItem="Ezp-Vm-BUi" secondAttribute="trailing" id="8Ab-UC-dFK"/>
-                            <constraint firstItem="eye-GA-o0N" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FMK-s2-fNN"/>
+                            <constraint firstItem="FNG-Jp-II3" firstAttribute="top" secondItem="xyE-am-tvw" secondAttribute="bottom" id="903-2u-5Ue"/>
                             <constraint firstItem="FNG-Jp-II3" firstAttribute="top" secondItem="Ezp-Vm-BUi" secondAttribute="bottom" constant="44" id="M3k-Gm-o2N"/>
                             <constraint firstItem="x98-1o-rv8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="P88-QT-wvi"/>
                             <constraint firstItem="Ezp-Vm-BUi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Q6j-Sh-HJ6"/>
                             <constraint firstItem="FNG-Jp-II3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="R2f-KK-D9I"/>
-                            <constraint firstItem="eye-GA-o0N" firstAttribute="top" secondItem="Ezp-Vm-BUi" secondAttribute="bottom" id="UZL-mn-AFW"/>
+                            <constraint firstItem="xyE-am-tvw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RTn-hW-BCR"/>
                             <constraint firstItem="Ezp-Vm-BUi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="V31-HK-u3B"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="x98-1o-rv8" secondAttribute="bottom" constant="20" id="bMa-WY-nJh"/>
+                            <constraint firstItem="x98-1o-rv8" firstAttribute="top" secondItem="xyE-am-tvw" secondAttribute="bottom" constant="21" id="eRy-MF-FsU"/>
                             <constraint firstItem="x98-1o-rv8" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="eYP-Mh-TFO"/>
                             <constraint firstItem="x98-1o-rv8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eeM-aQ-aPf"/>
                             <constraint firstAttribute="trailing" secondItem="FNG-Jp-II3" secondAttribute="trailing" id="ohd-lh-CO1"/>
+                            <constraint firstItem="xyE-am-tvw" firstAttribute="top" secondItem="Ezp-Vm-BUi" secondAttribute="bottom" id="q2N-H1-fPd"/>
+                            <constraint firstAttribute="trailing" secondItem="xyE-am-tvw" secondAttribute="trailing" id="xQX-xl-ruv"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="collection" destination="x98-1o-rv8" id="JWG-MF-cBK"/>
+                        <outlet property="searchBar" destination="xyE-am-tvw" id="Khf-rl-aBx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

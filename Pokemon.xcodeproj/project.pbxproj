@@ -73,7 +73,6 @@
 				BA9CA4A71C35BC5A00D42C19 /* Resources */,
 				BA9CA4891C35A0E200D42C19 /* AppDelegate.swift */,
 				BA9CA49B1C35A6B000D42C19 /* pokemon.csv */,
-				BA9CA48D1C35A0E200D42C19 /* Main.storyboard */,
 				BA9CA4901C35A0E200D42C19 /* Assets.xcassets */,
 				BA9CA4921C35A0E200D42C19 /* LaunchScreen.storyboard */,
 				BA9CA4951C35A0E200D42C19 /* Info.plist */,
@@ -92,6 +91,7 @@
 		BA9CA4A01C35B51200D42C19 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA9CA48D1C35A0E200D42C19 /* Main.storyboard */,
 				BA9CA4A11C35B54500D42C19 /* PokeCell.swift */,
 			);
 			name = View;

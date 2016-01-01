@@ -18,6 +18,7 @@
 		BA9CA4A41C35BC1800D42C19 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9CA4A31C35BC1800D42C19 /* csv.swift */; };
 		BA9CA4A91C35BFFF00D42C19 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA9CA4A81C35BFFF00D42C19 /* Pokemon Solid.ttf */; };
 		BA9CA4AB1C35C26E00D42C19 /* tune.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA9CA4AA1C35C26E00D42C19 /* tune.mp3 */; };
+		BA9CA4AD1C35E2A200D42C19 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9CA4AC1C35E2A200D42C19 /* PokemonDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BA9CA4A31C35BC1800D42C19 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		BA9CA4A81C35BFFF00D42C19 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 		BA9CA4AA1C35C26E00D42C19 /* tune.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tune.mp3; sourceTree = "<group>"; };
+		BA9CA4AC1C35E2A200D42C19 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				BA9CA48B1C35A0E200D42C19 /* ViewController.swift */,
+				BA9CA4AC1C35E2A200D42C19 /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				BA9CA4A21C35B54500D42C19 /* PokeCell.swift in Sources */,
 				BA9CA48C1C35A0E200D42C19 /* ViewController.swift in Sources */,
 				BA9CA48A1C35A0E200D42C19 /* AppDelegate.swift in Sources */,
+				BA9CA4AD1C35E2A200D42C19 /* PokemonDetailVC.swift in Sources */,
 				BA9CA49F1C35A91700D42C19 /* Pokemon.swift in Sources */,
 				BA9CA4A41C35BC1800D42C19 /* csv.swift in Sources */,
 			);
